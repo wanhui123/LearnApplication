@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_stepProgressView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tv_GreenDao"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="GreenDao" />
+
+    <TextView
+        android:id="@+id/tv_BottomSheetDialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="BottomSheetDialogFragment" />
+
+    <TextView
+        android:id="@+id/tv_HtmlSpanner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="TextView详情界面图文混排" />
+
+    <TextView
+        android:id="@+id/tv_rxJava2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="rxJava2" />
+
+    <TextView
+        android:id="@+id/tv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="轮播图" />
+
+    <TextView
+        android:id="@+id/tv_ChannelView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="新闻频道选择器" />
+
+    <TextView
+        android:id="@+id/tv_webView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="WebView通过loadDataWithBaseURL展示新闻详情详情" />
+
+    <TextView
+        android:id="@+id/tv_webViewLoadUrl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="WebView通过loadURL展示新闻详情详情" />
+
+</LinearLayout>

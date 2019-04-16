@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.StepprogressviewActivity">
+    <com.wh.learnapplication.widgit.StepProgressView
+        android:id="@+id/ts_step_progress_view"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:innerProgressColor="#4ba8ff"
+        app:outProgressColor="#dddddd"
+        app:centerTextSize="16sp"
+        app:progressWidth="5dp" />
+</LinearLayout>

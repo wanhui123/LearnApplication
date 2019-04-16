@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_top_ffffff_10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="答案解析"
+            android:textColor="#0d0d0d"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#f5f5f5" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:lineSpacingExtra="1.5dp"
+            android:text="新时期脱贫攻坚的目标，集中到一点，就是到2020年实现“两个确保”：确保农村贫困人口实现脱贫，确保贫困县全部脱贫摘帽。实现这一目标，意味着我国要比世界银行确定的在全球消除绝对贫困现象的时间提前十年。"
+            android:textColor="#0d0d0d"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_reference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="1.5dp"
+            android:text="-----习近平总书记2015年11月27日在中央扶贫开发工作会议上的讲话"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>
